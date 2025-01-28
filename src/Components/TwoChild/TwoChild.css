@@ -1,0 +1,106 @@
+.TwoChild-container {
+    background-color: var(--c5);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    color: var(--c1);
+    /* border: 0.1rem solid black; */
+    padding: 4rem 1rem;
+
+  }
+  
+  .TwoChild-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+    /* border: 0.1rem solid green; */
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .image-section {
+    width: 40%;
+    /* border-radius: 1rem; */
+  }
+  .image-section img{
+    width: 100%;
+    height: auto;
+    border-radius: 1.5rem;
+    border-bottom-left-radius: 0;
+
+  }
+  
+  .text-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* border: 0.1rem solid black; */
+    gap: 1rem;
+    /* text-shadow: .1rem .1rem 1rem black; */
+    align-items: start;    
+
+  }
+  
+.text-section h2{
+    color: var(--c1);
+    /* text-decoration: underline; */
+}
+ 
+.text-section h2 span{
+    color: var(--c4);
+    text-decoration: underline;
+
+}
+  .description {
+    /* font-size: 1rem; */
+    color: var(--c1);
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    /* text-shadow: .1rem .1rem 1rem gray; */
+
+  }
+  
+  .benefits-list {
+    list-style:circle;
+    list-style-position: outside;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-left: .5rem;
+  }
+  
+  .benefits-list li {
+    width: 48%;
+    /* border: 0.1rem solid #000000; */
+    font-size: clamp(.8rem, 3vw, 1rem);
+    color: var(--c1);
+    font-weight: bold;
+    position: relative;
+    /* text-shadow: .1rem .1rem 1rem gray; */
+
+  }
+  
+  
+  .know-more-button {
+    align-self: flex-start;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .know-more-button:hover {
+    background-color: #0056b3;
+  }
+  @media (max-width:900px) {
+    .image-section, .text-section{
+      width: 95%;
+    }
+  }

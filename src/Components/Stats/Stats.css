@@ -1,0 +1,33 @@
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 1rem;
+    /* border: 0.1rem solid black; */
+    gap: 1rem;
+    flex-wrap: wrap;
+    background-color: var(--c4);
+}
+
+.stats div {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    /* background: var(--c1); */
+    /* border: 0.1rem solid black; */
+    /* box-shadow: .1rem .1rem .5rem var(--c1); */
+    border-radius: .5rem;
+}
+
+.stats h2 {
+    color: var(--c5);
+}.stats p {
+    color: gray;
+    font-weight: bolder;
+}
+@media (max-width:687px) {
+    .stats div{
+        width: 45%;
+    }
+}

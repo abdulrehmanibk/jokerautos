@@ -1,0 +1,29 @@
+.banner{
+    width: 100%;
+    height: 30rem;
+    background: linear-gradient(45deg, black, var(--c3),var(--c3),  black); 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 1rem;
+}
+.banner h2{
+    /* color: var(--c1); */
+    font-family: var(--font1);
+    font-size: clamp(2rem, 4vw, 5rem);
+    /* text-shadow: .1rem .1rem 1rem white; */
+}
+.banner p{
+    color: var(--c4);
+    font-family: var(--font1);
+    font-size: 1rem;
+    letter-spacing: 1px;
+}.banner p a{
+   text-decoration: underline;
+   color: #368fa3;
+}

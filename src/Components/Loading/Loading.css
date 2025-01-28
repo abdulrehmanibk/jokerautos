@@ -1,0 +1,38 @@
+/* LoadingPage.css */
+
+.loading-container {
+    background-color: #253662; /* Background color */
+    color: #fff; /* Text color */
+    height: 100vh; /* Full-screen height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .loading-circle {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #fff; /* White border */
+    border-top: 5px solid #FE6E32; /* Accent color */
+    border-radius: 50%; /* Circular shape */
+    animation: spin 1s linear infinite;
+  }
+  
+  .loading-text {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #fff; /* White text */
+  }
+  
+  /* Spinner animation */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

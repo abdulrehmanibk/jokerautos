@@ -1,0 +1,87 @@
+.ShortBoxList_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* background-color: var(--c1); */
+    color: var(--c1);
+    padding: 4rem 0;
+    /* border: 0.1rem solid black; */
+}
+.headpara{
+    width: 70%;
+    text-align: center;
+    font-size: clamp(1.1rem , 3vw, 2rem);
+    color: var(--c7);
+}.ShortBoxList_container h1{
+    width: 70%;
+    text-align: center;
+
+
+}
+
+.ShortBoxList_container h1 span{
+    color: var(--c5);
+}
+.ShortBoxList_list_container{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+.ShortBoxList_list_container li{
+    width: 20rem;
+    /* border: 0.1rem solid black; */
+    border-radius: 1rem;
+    padding: 1.5rem 3rem;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--c6);
+    color: var(--c1);
+    transition: 0.2s;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: .1rem .1rem  .5rem var(--c7);
+}
+.ShortBoxList_list_container li:hover{
+    transform: scale(1.05);
+}
+.ShortBoxList_list_container li i {
+    font-size: 3rem;
+    color: var(--c5);
+}
+.ShortBoxList_list_container li h4 {
+    font-size: 1.4rem;
+}
+.ShortBoxList_list_container li p{
+    font-size: 1.1rem;
+}
+.ShortBoxList_list_container li:nth-child(3){
+    font-size: 1.5rem;
+}
+.ShortBoxList_list_container li select{
+    font-size: 1.1rem;
+    border-radius: .5rem;
+    outline: none;
+    /* border: 0.1rem solid var(--c1); */
+    color: var(--c1);
+    padding: .5rem .7rem;
+}
+@media (max-width:710px) {
+    .ShortBoxList_list_container li{
+        width: 100% !important;
+    }
+    .headpara{
+        width: 90%;
+    }
+}

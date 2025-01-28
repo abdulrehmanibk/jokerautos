@@ -1,0 +1,125 @@
+const features = [
+    {
+      id: 1,
+      heading:'Quality Assurance',
+      headpara:'At Quran Online Tutoring, we are dedicated to providing the highest standards of education and support to our students. Our Quality Assurance program is designed to ensure that all students receive a valuable, authentic, and engaging Quran learning experience.',
+
+      title1: "Qualified and Experienced Instructors",
+      description1: "Our instructors are carefully selected for their expertise, credentials, and passion for teaching. Each teacher has a strong background in Quranic studies, Tajweed, and Islamic education. They are trained to cater to students of all ages and levels, ensuring that every student receives personalized guidance and support.",
+      
+      title2: "Regular Performance Monitoring",
+      description2: "To maintain high standards, we conduct regular performance evaluations of our instructors. This includes monitoring teaching methods, reviewing feedback from students, and ensuring alignment with our educational goals. Continuous improvement is central to our approach, and we take all feedback seriously to enhance the learning experience.",
+    
+      title3: "Student Feedback and Support",
+      description3: "We value our students feedback and encourage open communication. Students and parents can provide feedback on classes, instructors, and overall satisfaction. Our dedicated support team is always available to address concerns, answer questions, and ensure that each student’s experience meets their expectations.",
+      
+      title4: "Comprehensive Learning Resources",
+      description4: "Our platform provides a wide range of learning materials and resources to supplement live classes. These resources include Quranic recitation guides, Tajweed practice tools, and customized lesson plans. We strive to offer materials that accommodate various learning styles and support students in their journey to mastering the Quran.",
+  
+      title5: "Commitment to Continuous Improvement",
+      description5: "Quran Online Tutoring is dedicated to continuous improvement. We regularly review our curriculum, teaching practices, and technological tools to adapt to the latest educational standards. By fostering a culture of growth, we aim to provide a dynamic learning environment that encourages excellence and supports students at every step.",
+  
+      title6: "Technology and Accessibility",
+      description6: "We leverage advanced online tools to deliver a seamless and interactive learning experience. Our platform is accessible on multiple devices, allowing students to attend classes from anywhere with an internet connection. We continuously improve our technology to ensure accessibility and ease of use for all students.",
+  
+      title7: "Transparent Policies",
+      description7: "Our policies are designed to be transparent and student-focused. From scheduling and attendance to feedback and refunds, we maintain open communication and provide clear guidelines to ensure a positive learning experience for all."
+    },
+    {
+      id: 2,
+      heading:'Help and Support',
+      headpara:'We’re here to help you make the most of your learning experience at Quran Online Tutoring. Below are resources and contact options to assist with any questions or issues you may have.',
+      title1: "Dedicated Help Desk",
+      description1: "Our help desk is available around the clock to address queries and provide assistance, ensuring uninterrupted learning for our students.",
+      title2: "Comprehensive Knowledge Base",
+      description2: "We maintain a detailed knowledge base that provides answers to frequently asked questions and step-by-step guidance.",
+      title3: "Technical Support",
+      description3: "For technical issues, our specialized team is on hand to troubleshoot and resolve problems promptly, ensuring smooth operations.",
+      title4: "Personalized Assistance",
+      description4: "We offer personalized support tailored to the unique needs of each student, ensuring that every query is resolved effectively.",
+      title5: "Multilingual Support",
+      description5: "Our support team can communicate in multiple languages, making assistance accessible to a diverse group of students.",
+      title6: "Proactive Issue Resolution",
+      description6: "We monitor our systems continuously to identify and resolve potential issues before they affect students.",
+      title7: "Accessible Contact Channels",
+      description7: "Students can reach us through multiple channels, including chat, email, and phone, ensuring help is always within reach."
+  },
+  {
+    id: 3,
+    heading:'Customer Service',
+    headpara:'At Quran Online Tutoring, we are committed to providing exceptional customer support to ensure a smooth and fulfilling learning experience. If you need assistance, please explore the resources below to find the help you need.',
+    title1: "Friendly Customer Service",
+    description1: "Our customer service team is trained to create a welcoming and supportive experience for all inquiries.",
+    title2: "Quick Response Times",
+    description2: "We prioritize swift responses to ensure students and parents receive timely assistance.",
+    title3: "Problem Resolution",
+    description3: "Our team focuses on resolving issues effectively, with a commitment to student satisfaction.",
+    title4: "Feedback Channels",
+    description4: "We actively encourage feedback from our students to improve and refine our services.",
+    title5: "Proactive Communication",
+    description5: "We keep students informed about updates, schedule changes, and other relevant information.",
+    title6: "Empathy and Understanding",
+    description6: "Our team is trained to listen actively and understand the needs of each student before providing solutions.",
+    title7: "Post-Service Follow-Up",
+    description7: "We follow up after resolving an issue to ensure complete satisfaction with our service."
+},
+{
+  id: 4,
+  heading:'Refund Policy',
+  headpara:'At Quran Online Tutoring, we are committed to providing high-quality educational services. This Refund Policy outlines the conditions and process for requesting a refund for our services.',
+  title1: "Clear Refund Guidelines",
+  description1: "Our refund policy is designed to be simple and transparent, providing peace of mind to our students and parents.",
+  title2: "Hassle-Free Process",
+  description2: "We ensure a smooth and straightforward refund process, minimizing inconvenience for students.",
+  title3: "Flexible Refund Options",
+  description3: "Refunds are offered in various forms to accommodate the preferences of students and parents.",
+  title4: "Quick Turnaround Time",
+  description4: "Refund requests are processed promptly to ensure a quick resolution.",
+  title5: "Customer Support for Refunds",
+  description5: "Our support team is available to assist with refund-related queries and concerns.",
+  title6: "Policy Awareness",
+  description6: "We ensure all students are well-informed about our refund policies before they enroll.",
+  title7: "Exceptional Circumstances",
+  description7: "We accommodate exceptional cases with flexibility, putting student needs first."
+},
+{
+  id: 5,
+  heading:'Terms and Conditions',
+  headpara:'Welcome to Quran Online Tutoring. By accessing or using our platform, you agree to be bound by these Terms and Conditions. Please read them carefully.',
+  title1: "User Agreement",
+  description1: "Our terms of use include a clear user agreement to ensure a mutual understanding of responsibilities.",
+  title2: "Intellectual Property Rights",
+  description2: "We outline the intellectual property rights associated with our content to protect both parties.",
+  title3: "Acceptable Use Policy",
+  description3: "Our acceptable use policy ensures a safe and respectful learning environment for everyone.",
+  title4: "Liability Limitations",
+  description4: "The terms of use clearly state the extent of liability in various circumstances.",
+  title5: "Service Changes",
+  description5: "We reserve the right to modify our services, with prior notice provided to students.",
+  title6: "Dispute Resolution",
+  description6: "We include a dispute resolution policy to address conflicts amicably.",
+  title7: "Policy Updates",
+  description7: "Our terms are reviewed regularly and updated to reflect any changes in our services or regulations."
+},
+{
+  id: 6,
+  heading:'Privacy Policy',
+  headpara:'This Privacy Policy describes how Quran Online Tutoring (“we,” “us,” or “our”) collects, uses, and discloses your personal information when you visit or use our platform.',
+  title1: "Data Collection Transparency",
+  description1: "Our privacy policy explains what data we collect and how it is used.",
+  title2: "Secure Data Storage",
+  description2: "We implement robust measures to ensure the secure storage of student information.",
+  title3: "Student Data Protection",
+  description3: "We are committed to protecting the personal information of all our students.",
+  title4: "Third-Party Sharing",
+  description4: "Our policy specifies the conditions under which data may be shared with third parties.",
+  title5: "Parental Consent",
+  description5: "We require parental consent for students under 18, ensuring compliance with regulations.",
+  title6: "Cookies and Tracking",
+  description6: "We are transparent about our use of cookies and tracking technologies on our platform.",
+  title7: "Privacy Inquiries",
+  description7: "Our team is available to address any questions or concerns about privacy matters."
+}
+];
+  
+  export default features;

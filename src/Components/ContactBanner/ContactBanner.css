@@ -1,0 +1,24 @@
+.contact {
+    padding: 5rem 2rem;
+    background-color: var(--c5);
+    color: #fff;
+    text-align: center;
+    font-family: var(--font1);
+    /* background: linear-gradient(45deg,var(--c4), var(--c2),var(--c2), var(--c4));  */
+
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+      color: var(--c3);
+    margin-bottom: 1rem;
+  }
+  
+  .contact p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: var(--c3);
+    letter-spacing: 1px;
+    text-shadow: .1rem .1rem 1rem black;
+  
+  }
