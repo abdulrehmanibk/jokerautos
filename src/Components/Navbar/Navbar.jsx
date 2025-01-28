@@ -42,7 +42,7 @@ const Navbar = () => {
             </li> */}
             <li className="link">
             <i class="fa-solid fa-building"></i>
-              <NavLink to={"/about/fgcampus"} className={"NavLinks"}>
+              <NavLink to={"/about/jokerautos"} className={"NavLinks"}>
                 About
               </NavLink>
             </li>
@@ -80,7 +80,7 @@ const Navbar = () => {
 
         <div className="btn_nav">
           <NavLink to={"/register"} className={"NavLinks"}>
-            <button className="button2">Get A Free Trial</button>
+            <button className="button2">Get In Touch With Us</button>
           </NavLink>
         </div>
 
@@ -119,7 +119,7 @@ const Navbar = () => {
             </details> */}
           <details>
             <summary>              
-              <NavLink to={"/about/fgcampus"} className={"NavLinks"} onClick={handleNav}>
+              <NavLink to={"/about/jokerautos"} className={"NavLinks"} onClick={handleNav}>
                 About
               </NavLink></summary>
           </details>

@@ -9,7 +9,7 @@ const AdditionalLinks = () => {
     const [additionalLinkFeature, setAdditionalLinkFeature] = useState([]);
   
     useEffect(() => {
-      const feature = features.find((item) => item.id === params.id);
+      const feature = features.find((item) => item.id == params.id);
   
       setAdditionalLinkFeature(feature);
     }, [params.id]);
@@ -40,22 +40,20 @@ const AdditionalLinks = () => {
                     width:'90%', 
                     textAlign:'left', 
                     transform: 'scale(1)',
-                    boxShadow:'0 0 0 white',
+                    boxShadow:'none',
+                    backgroundColor:'var(--c3)'
 
                 }}>    
                     <h3 style={{
                         width:'100%', 
-                        textAlign:'left', 
+                        // textAlign:'left', 
                         color:'var(--c5)',
-                        fontFamily:'monospace',
-                        letterSpacing:'.0000001px'
 
                     }}>{key[key.length-1]}.{value}</h3>
                     <p style={{
-                    fontFamily:'monospace',
-                    letterSpacing:'.0000001px',
-                    color:'gray',
-                    textAlign:'left', 
+                      width:'100%', 
+                      color:'var(--c2)',
+                      fontSize:'clamp(.9rem, 2vw, 1.4rem)'
                     }}>{additionalLinkFeature[descriptionKey]}</p>
                 </li>
             )

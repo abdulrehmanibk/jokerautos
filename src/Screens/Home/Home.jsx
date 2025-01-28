@@ -80,7 +80,7 @@ export const Home = () => {
             }
             children={
               <div style={{display: 'flex'}}>
-                <NavLink to={'/about/fgcampus'} >
+                <NavLink to={'/about/jokerautos'} >
                 <button className="button2">See More About Us</button>
                 </NavLink>
               </div>

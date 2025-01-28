@@ -1,7 +1,7 @@
 /* ErrorPage.css */
 
 .error-container {
-    background-color: #253662; 
+    background-color: var(--c1) ;
     color: #fff;
     height: 100vh; 
     display: flex;
@@ -14,7 +14,7 @@
   
   .error-title {
     font-size: 6rem; /* Large font for "404" */
-    color: #fe6e32; /* Accent color */
+    color: var(--c3); /* Accent color */
     margin: 0;
   }
   
@@ -26,9 +26,9 @@
   
   .error-link {
     font-size: 1rem;
-    color: #fe6e32; /* Accent color for the link */
+    color: var(--c3); /* Accent color for the link */
     text-decoration: none; /* No underline */
-    border: 2px solid #fe6e32;
+    border: 2px solid var(--c3);
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 20px;
@@ -36,7 +36,7 @@
   }
   
   .error-link:hover {
-    background-color: #fe6e32; /* Button effect on hover */
-    color: #253662; /* Background becomes text color */
+    background-color: var(--c3); /* Button effect on hover */
+    color: var(--c1); /* Background becomes text color */
   }
   
