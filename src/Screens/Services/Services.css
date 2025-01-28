@@ -7,14 +7,17 @@
 }
 .course-header{
     width: 100%;
+    /* height: auto; */
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* border: 0.1rem solid black; */
+    border: 0.1rem solid black;
     padding: 4rem .5rem;
     flex-wrap: wrap;
     gap: 1rem;
+    /* margin: 1rem; */
+    /* position: relative; */
 }
 .aboutP{
     margin: 1rem 0;
@@ -37,7 +40,10 @@
   }
 .course-header-content{
     width: 35rem;
-    /* border: 0.1rem solid black; */
+    height: auto;
+    /* position: relative; */
+    border: 0.1rem solid black;
+    /* padding: .5rem; */
 }
 .course-header h1 {
     color: var(--c1);
@@ -86,7 +92,7 @@
         flex-direction: column-reverse;
     }
     .course-header-content{
-        height: 25rem;
+        /* height: 25rem; */
         /* background-color: #caae8b83; */
         justify-content: center;
         display: flex;
